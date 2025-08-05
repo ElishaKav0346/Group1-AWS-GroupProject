@@ -31,40 +31,40 @@ Screenshots and documentation are located in `task2_implementation/`.
 ## AWS Implementation Screenshot Links:
 
 ### 1. We started by creating our Group1-Virtual Private Cloud
-![VPC](Screenshots2/Picture1.png)
+![VPC](task2_implementation/Screenshots2/Picture1.png)
 
 ### 2. Next, we created a public and private subnet 
-![Public Subnet](Screenshots2/Picture2.png)
+![Public Subnet](task2_implementation/Screenshots2/Picture2.png)
 
 ### 3. Private Subnet
-![Private Subnet](Screenshots2/Picture3.png)
+![Private Subnet](task2_implementation/Screenshots2/Picture3.png)
 
 ### 4. Both of our Subnets:
-![Group1-Subnets](Screenshots2/Picture4.png)
+![Group1-Subnets](task2_implementation/Screenshots2/Picture4.png)
 
 ### 5. We then created an internet gateway 
-![IGW](Screenshots2/Picture5.png)
+![IGW](task2_implementation/Screenshots2/Picture5.png)
 
 ### 6. Next, we configured route tables
-![Public Route Table](Screenshots2/Picture6.png)
+![Public Route Table](task2_implementation/Screenshots2/Picture6.png)
 
 ### 7. Private Route Table
-![Private Route Table](Screenshots2/Picture7.png)
+![Private Route Table](task2_implementation/Screenshots2/Picture7.png)
 
 ### 8. NAT gateway configuration 
-![NAT Gateway](Screenshots2/Picture8.png)
+![NAT Gateway](task2_implementation/Screenshots2/Picture8.png)
 
 ### 9. Then, we configured security groups to control the flow of traffic to our EC2 instances
-![Our Web Server Security Group](Screenshots2/Picture9.png)
+![Our Web Server Security Group](task2_implementation/Screenshots2/Picture9.png)
 
 ### 10. Database Security Group 
-![DB Security Group](Screenshots2/Picture10.png)
+![DB Security Group](task2_implementation/Screenshots2/Picture10.png)
 
 ### 11. Finally we deployed a webserver and a database EC2 instance 
-![Web Server EC2 Instance](Screenshots2/Picture11.png)
+![Web Server EC2 Instance](task2_implementation/Screenshots2/Picture11.png)
 
 ### 12. Database EC2 Instance 
-![Database EC2 Instance](Screenshots2/Picture12.png)
+![Database EC2 Instance](task2_implementation/Screenshots2/Picture12.png)
 
 
 
