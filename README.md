@@ -16,6 +16,8 @@ We started by planning the cloud architecture:
 - Set up security groups to control which parts could talk to each other.
 
 Our architecture diagram can be found in the `task1_architecture/` folder.
+### AWS Architecture Diagram
+![Diagram](task1_architecture/diagram.png)
 
 
 ## Task 2 – Manual Implementation (AWS Console)
