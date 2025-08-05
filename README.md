@@ -28,6 +28,45 @@ In this step, we manually built the infrastructure using the AWS Management Cons
 
 Screenshots and documentation are located in `task2_implementation/`.
 
+## AWS Implementation Screenshot Links:
+
+### 1. We started by creating our Group1-Virtual Private Cloud
+![VPC](Screenshots2/screenshot1.png)
+
+### 2. Next, we created a public and private subnet 
+![Public Subnet](Screenshots2/screenshot2.png)
+
+### 3. Private Subnet
+![Private Subnet](Screenshots2/screenshot3.png)
+
+### 4. Both of our Subnets:
+![Group1-Subnets](Screenshots2/screenshot4.png)
+
+### 5. We then created an internet gateway 
+![IGW](Screenshots2/screenshot5.png)
+
+### 6. Next, we configured route tables
+![Public Route Table](Screenshots2/screenshot6.png)
+
+### 7. Private Route Table
+![Private Route Table](Screenshots2/screenshot7.png)
+
+### 8. NAT gateway configuration 
+![NAT Gateway](Screenshots2/screenshot8.png)
+
+### 9. Then, we configured security groups to control the flow of traffic to our EC2 instances
+![Our Web Server Security Group](Screenshots2/screenshot9.png)
+
+### 10. Database Security Group 
+![DB Security Group](Screenshots2/screenshot10.png)
+
+### 11. Finally we deployed a webserver and a database EC2 instance 
+![Web Server EC2 Instance](Screenshots2/screenshot11.png)
+
+### 12. Database EC2 Instance 
+![Database EC2 Instance](Screenshots2/screenshot12.png)
+
+
 
 ## Task 3 – Infrastructure as Code (CloudFormation)
 
