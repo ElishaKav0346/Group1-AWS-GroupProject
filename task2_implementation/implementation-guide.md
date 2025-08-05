@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ## Step By Step Guide to the AWS Implementation:
 
 ## Overview:
@@ -239,4 +239,3 @@ Create Security Group
 
 Launch Instance 
 
->>>>>>> 8542e3c2a6bda00cbcf62afcacb9e1a29291555a
