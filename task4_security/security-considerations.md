@@ -9,7 +9,7 @@ When creating a safe cloud architecture on AWS, it's critical to recognize possi
 ### 1. Preventing unauthorized public access to the databases 
 
 Challenge:
-Attackers frequently target databases because they hold sensitive information. The risk of illegal access, data breaches, and software vulnerability exploitation rises when a database server is directly exposed to the internet.
+- Attackers frequently target databases because they hold sensitive information. The risk of illegal access, data breaches, and software vulnerability exploitation rises when a database server is directly exposed to the internet.
 
 Solution:
 -  Private subnet: Since the database EC2 instance is set up in a private subnet, it cannot be accessed from the public internet and does not have a public IP address.
@@ -19,7 +19,7 @@ Solution:
 ### 2. Minimizing attack surface of public-facing components
 
 Challenge 
-The web server is more vulnerable to assaults like malware insertion, brute-force login attempts, and denial-of-service (DoS) attacks since it is reachable via the internet.
+- The web server is more vulnerable to assaults like malware insertion, brute-force login attempts, and denial-of-service (DoS) attacks since it is reachable via the internet.
 
 Solutions 
 - Strict security groups: The security group of the web server (Web_Security_Group) only permits necessary inbound traffic from any location (HTTP on port 80, HTTPS on port 443). By default, all additional protocols and ports are blocked.
@@ -30,7 +30,7 @@ Solutions
 
 ### 3. Protecting data in transit and ensuring secure management
 Challenge 
-When data travels between components or when administrators connect to servers for maintenance, it may be intercepted or altered. Sensitive data, including customer information and login credentials, are exposed in unencrypted communications.
+- When data travels between components or when administrators connect to servers for maintenance, it may be intercepted or altered. Sensitive data, including customer information and login credentials, are exposed in unencrypted communications.
 
 Solutions 
 HTTPS For Web Traffic: 
