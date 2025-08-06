@@ -92,10 +92,10 @@ Our security design and notes are in the `task4_security/` folder.
 ## Summary
 
 This project helped us learn how to:
-- We designed a secure cloud architecture.
-- We used both the AWS Console and Infrastructure-as-Code tools.
-- Used best practices for public and private subnet usage.
-- Applied real-world security configurations in AWS.
+- Design a secure cloud architecture.
+- Use both the AWS Console and Infrastructure-as-Code tools.
+- Use best practices for public and private subnet usage.
+- Apply real-world security configurations in AWS.
 
 We’re Group 1, and this is our AWS cloud infrastructure project, everything is organized by task inside this repository.
 
