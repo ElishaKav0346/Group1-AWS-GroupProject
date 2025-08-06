@@ -78,6 +78,7 @@ We translated our manual setup into code using CloudFormation:
 
 CloudFormation templates and setup instructions are in `task3_automation/`.
 
+![CloudFormationCode](task3_automation/GROUP1-TASK3[1].YAML
 
 ## Task 4 – Security Considerations
 
