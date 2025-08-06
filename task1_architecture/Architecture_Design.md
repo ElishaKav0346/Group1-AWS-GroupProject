@@ -42,11 +42,10 @@ The architecture will follow AWS best practices for security, availability, and 
 ### Step 5: Elastic IP / Verification 
 - Assign an Elastic IP to the Web Server 
   - An Elastic IP refers to assigning the webserver a static public IP address.
-
-    This makes it easier to:
-    	- Access the server without constantly looking up the IP address of the server.
-    	- Allows us the ability to associate a domain name with the IP address. 
-    	- Access the webserver using the browser
-    	- Test that the app is working.
-    	- Test Private Communication Between Webserver and Database
-    	- Confirm secure, private communication between the webserver and database server.
+This makes it easier to:
+    - Access the server without constantly looking up the IP address of the server.
+    - Allows us the ability to associate a domain name with the IP address. 
+    - Access the webserver using the browser
+    - Test that the app is working.
+    - Test Private Communication Between Webserver and Database
+    - Confirm secure, private communication between the webserver and database server.
