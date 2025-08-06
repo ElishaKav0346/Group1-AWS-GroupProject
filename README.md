@@ -88,6 +88,7 @@ In this final step, we reviewed and documented the security of our system:
 - We used isolated subnets and security groups to tightly control traffic.
 
 Our security design and notes are in the `task4_security/` folder.
+![SecurityConsiderations](task4_security/security-considerations.md)
 
 ## Summary
 
