@@ -1,0 +1,38 @@
+Task 3: Automation Using CloudFormation Guide
+    
+Step 1: Create YAML Template for CloudFormation
+The template will be used to build:
+      - A custom VPC
+      - A public and private subnet
+      - An EC2 instance webserver in the public subnet
+      - An EC2 instance database server in the private subnet
+      - Internet gateway
+      - NAT gateway
+      - Route tables 
+      - Security groups and routing that:
+            - Allow internet access only to the web server
+            - Block public access to the database
+            - Allow the web server to talk to the database securely
+Use VS to create and save your template.
+
+
+Step 2: Deploy the Template using AWS CloudFormation
+Aws Console --> CloudFormation --> Stacks --> Create Stack (with new resources) 
+      - Upload a template file
+      - Choose the template file you saved in visual studio code
+            --> Next
+  - Fill in Stack Details
+      - Stack Name: Group1-CloudFormation-Stack
+      - KeyName Parameter: Group1-Key
+            --> Next
+      - Configure Stack Options: Leave Defaults 
+            --> Next
+      - Review and Launch 
+            --> Create Stack 
+  - Wait for CREATE_COMPLETE
+
+
+Step 3: Verify if the CloudFormation Stack was Successful
+--> Check that you have 2 new EC2 instances 
+--> Check for the newly deployed VPC, Subnets, Route Tables, and Security Groups
+
