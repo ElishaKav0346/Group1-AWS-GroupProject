@@ -1,7 +1,9 @@
 ### Task 1: Architecture Design
 
 ### Description 
-        The goal of our project is to design and implement a secure and scalable cloud infrastructure on Amazon Web Services (AWS) to host a simple web application EC2 and a private database EC2. The web server will have an application that will be accessible over the internet, and the database will remain private and protected. The architecture will follow AWS best practices for security, availability, and network segmentation.
+The goal of our project is to design and implement a secure and scalable cloud infrastructure on Amazon Web Services (AWS) to host a simple web application EC2 and a private database EC2. 
+The web server will have an application that will be accessible over the internet, and the database will remain private and protected. 
+The architecture will follow AWS best practices for security, availability, and network segmentation.
 
 ### Infrastructure Building Plan
        

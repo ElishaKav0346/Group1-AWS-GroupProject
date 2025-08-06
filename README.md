@@ -17,7 +17,7 @@ We started by planning the cloud architecture:
 
 Our architecture diagram can be found in the `task1_architecture/` folder.
 ### AWS Architecture Diagram
-![Diagram](task1_architecture/diagram.png)
+![Diagram](task1_architecture/DiagramFinalCopy.png)
 
 
 ## Task 2 – Manual Implementation (AWS Console)
