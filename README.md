@@ -80,6 +80,8 @@ CloudFormation templates and setup instructions are in `task3_automation/`.
 
 ![CloudFormationCode](task3_automation/GROUP1-TASK3[1].YAML)
 
+![Screenshots](task3_automation/Automation_Screenshots)
+
 ## Task 4 – Security Considerations
 
 In this final step, we reviewed and documented the security of our system:
