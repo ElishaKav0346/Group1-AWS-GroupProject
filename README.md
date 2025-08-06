@@ -89,6 +89,8 @@ In this final step, we reviewed and documented the security of our system:
 
 Our security design and notes are in the `task4_security/` folder.
 
+![SecurityConsiderations](task4_security/security-considerations.md)
+
 ## Summary
 
 This project helped us learn how to:
